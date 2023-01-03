@@ -1,0 +1,12 @@
+
+export const UserCard = (props) => {
+    return (
+      <div className="card">
+      <div>{/* <img scr = {user.imageUrl} alt="zurag"/> */}</div>
+      <div>
+        <h2>Name: {props.name}</h2>
+        <p>Age: {props.age}</p>
+      </div>
+      </div>
+    )
+  }
