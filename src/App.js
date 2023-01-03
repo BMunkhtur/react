@@ -1,4 +1,5 @@
 import "./App.css";
+import {UserCard} from './compunent/UserCard'
 function App() {
   const users = [
     {
@@ -37,25 +38,14 @@ function App() {
   let avgAge = sumAge / users.length;
   
   return (
-    <div >
-      <h1 className="avg">Average: {avgAge}</h1>
-      <div className="row">
+    <div>
+      <h1>Average: {avgAge}</h1>
       {
-      users.map((user) => {
-        return (
-          <div className="card">
-            <div className="col">
-              <img src={user.imageUrl} alt="zurag" />
-            </div>
-            <div className="col">
-              <h2>Name: {user.name}</h2>
-              <p>Age: {user.age}</p>
-            </div>
-          </div>
-        );
-      })}
+        users.map((user) => (
+          <UserCard name={user.name} age={user.age} />
+        ))
+      }
       </div>
-    </div>
-  );
+  )
 }
 export default App;
