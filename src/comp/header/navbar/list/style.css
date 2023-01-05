@@ -1,0 +1,31 @@
+.lists{
+list-style: none;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+.flex-one{
+    flex-basis: 40rem;
+}
+.zurag{
+   margin-left: 5px;
+   margin-bottom: 4px;
+}
+.row{
+    display: flex;
+}
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+}
+.pmargin{
+    margin-right: 300px;
+    color:#424242;
+}
+.h1{
+    color: #D05270;
+}
+.btns{
+    background-color: chartreuse;
+    display: flex;
+}
