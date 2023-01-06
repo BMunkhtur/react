@@ -1,9 +1,9 @@
-.btns{
+.btns {
   gap: 18px;
   display: flex;
   height: 60px;
   width: 500px;
 }
-img:hover{
+img:hover {
   scale: 1.2;
 }
