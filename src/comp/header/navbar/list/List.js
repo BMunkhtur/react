@@ -8,13 +8,31 @@ const List = () => {
             <img className="zurag1" src="./zurag/Logo.png" alt="" />
             <img className="zurag" src="./zurag/Hire Me.png" alt="" />
           </li>
-          <li>PORTFOLIO</li>
-          <li>BLOG</li>
-          <li>CV</li>
-          <li>STORE</li>
-          <li>FREELANCE</li>
-          <li>ABOUT ME</li>
-          <li>CONTACT</li>
+          <a href="">
+            {" "}
+            <li>PORTFOLIO</li>
+          </a>
+          <a href="">
+            <li>BLOG</li>
+          </a>
+          <a href="">
+            <li>CV</li>
+          </a>
+          <a href="">
+            {" "}
+            <li>STORE</li>
+          </a>
+          <a href="">
+            {" "}
+            <li>FREELANCE</li>
+          </a>
+          <a href="">
+            <li>ABOUT ME</li>
+          </a>
+          <a href="">
+            {" "}
+            <li>CONTACT</li>
+          </a>
         </ul>
       </div>
     </div>

@@ -1,8 +1,5 @@
-import "../list/style.css"
+import "../list/style.css";
 const Logo = () => {
-    return (
-      <div className="logo Lists">
-      </div>
-    )
-  }
-  export default Logo;
+  return <div className="logo Lists"></div>;
+};
+export default Logo;

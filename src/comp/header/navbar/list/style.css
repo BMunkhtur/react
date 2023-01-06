@@ -3,13 +3,23 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.lists a {
+  text-decoration: none;
+  color: #424242;
+}
+.lists a:hover {
+  color: #5a47ab;
+  font-weight: 600;
 }
 .flex-one {
   flex-basis: 40rem;
 }
 .zurag1 {
   padding: 0;
-  margin: 0;
+  left: 0;
 }
 .zurag {
   margin-left: 5px;
@@ -25,9 +35,19 @@
 .pmargin {
   margin-right: 300px;
   color: #424242;
+  margin-bottom: 36px;
 }
 .h1 {
   color: #d05270;
+  font-size: 52px;
+  width: 700px;
+  line-height: 63.39px;
+}
+.toph1 {
+  color: #424242;
+  font-size: 52px;
+  width: 500px;
+  line-height: 63.39px;
 }
 .designBtn {
   height: 60px;
@@ -76,14 +96,7 @@
 #cardu {
   width: calc(100% / 2 - 30px);
 }
-.read {
-  color: #d05270;
-  font-size: 18px;
-  margin-top: 30px;
-  margin-bottom: 75px;
-  font-weight: 600;
-  text-decoration: underline;
-}
+
 .conttitle {
   color: #d05270;
   font-size: 24px;
@@ -128,8 +141,46 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 350px;
+  margin-top: 275px;
   margin-bottom: 100px;
   width: 301px;
   height: 34px;
+}
+.contentlist a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+  padding: 10px;
+}
+.contentlist a:hover {
+  color: #d05270;
+  border-bottom: solid 3px;
+}
+.read {
+  color: #d05270;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: solid 1px;
+}
+.readone {
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
+.textone,
+.texttwo,
+.textthree {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #424242;
+}
+.title {
+  margin-right: 40px;
+}
+.titleimg {
+  margin-left: 30px;
 }
