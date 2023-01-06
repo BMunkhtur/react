@@ -1,15 +1,12 @@
-import Header from "./comp/header/Header"
-// import Content from "./comp/content/Content"
-// import Footer from "./comp/footer/Footer"
+import Home from "./pages/homepage/Home";
+import Detail from "./pages/diidi/Detail";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      {/* <Content/>
-      <Footer/> */}
+      <Home />
+      <Detail />
     </div>
-  )
-
+  );
 }
 export default App;

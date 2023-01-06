@@ -1,8 +1,8 @@
 import "../navbar/list/style.css"
 import DesignBtn from "./design/Design";
 const Headermain = () => {
-    const designs = [{name:'TWITTER',imageURL:"./zurag/twitter.png", background:"yellowgreen" },
-    {name:'LINKINDEN',imageURL:"./zurag/linked_in.png"},
+    const designs = [{name:'TWITTER',imageURL:"./zurag/twitter.png"},
+    { name:'LINKINDEN',imageURL:"./zurag/linked_in.png" },
     {name:'MEDIUM',imageURL:"./zurag/Ellipse 3.png"}
 ]
     return (
@@ -13,9 +13,9 @@ const Headermain = () => {
         <h1 className="h1">Blog Posts</h1>
         <h1 >I think so, this is it.</h1>
         <p className="pmargin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus voluptatem aut quibusdam, labore sequi recusandae facere! Consequuntur facilis veniam magnam quos sed error accusantium minus numquam ipsum, omnis, nisi corporis quidem exercitationem in esse iure. Dolore magnam quas delectus aut.</p>
-        <div className='btns'>
-        {designs.map((design)=>
-            <DesignBtn design={design}/>)}
+        <div className="btns">
+        {designs.map((design,index)=>
+            <DesignBtn key={index}design={design}/>)}
         </div>
         </div>
         <div className="col">
@@ -23,7 +23,6 @@ const Headermain = () => {
         </div>
         </div>
         </div>
-       
       </div>
     )
   }
