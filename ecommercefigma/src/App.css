@@ -192,4 +192,19 @@
 .card {
   width: 200px;
   height: 140px;
+  margin-bottom: 100px;
+}
+.doo {
+  margin-right: 560px;
+}
+.navbarbutton {
+  height: 41px;
+  color: #1b5a7d;
+  border: 2px solid #1b5a7d;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.heat {
+  color: black;
+  background-color: black;
 }
