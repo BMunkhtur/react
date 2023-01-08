@@ -148,6 +148,7 @@
 }
 .oneblock {
   padding: 100px;
+  height: 500px;
 }
 .booronhii {
   position: absolute;
@@ -169,8 +170,8 @@
   text-align: center;
 }
 .jijig {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   border-radius: 100px;
   border: solid 2px wheat;
   margin-top: 49px;
@@ -184,4 +185,11 @@
   margin-top: 49px;
   margin-left: 120px;
   border: none;
+}
+.card img {
+  width: 100px;
+}
+.card {
+  width: 200px;
+  height: 140px;
 }
