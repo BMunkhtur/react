@@ -208,3 +208,30 @@
   color: black;
   background-color: black;
 }
+
+.left {
+  color: red !important;
+  position: absolute;
+  left: 148px !important;
+  bottom: 100px !important;
+}
+.right {
+  color: red !important;
+  position: absolute;
+  right: 195px !important;
+  bottom: 100px !important;
+}
+.carousel-control-prev-icon {
+  color: red !important;
+}
+.rightbut {
+  border-radius: 50px;
+  border: none;
+}
+.leftbut {
+  border-radius: 50px;
+  border: none;
+}
+.border-radius {
+  border-radius: 20px;
+}

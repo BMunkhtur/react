@@ -1,3 +1,5 @@
+import Button from "react-bootstrap/Button";
+
 import Cardt from "./Card";
 const Carbuttontwo = () => {
   const cards = [
@@ -20,15 +22,90 @@ const Carbuttontwo = () => {
       count: "(item 6)",
     },
   ];
+
   return (
-    <div className="container">
-      <div className="row">
-        {cards.map((card, index) => (
-          <Cardt key={index} card={card} />
-        ))}
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
       </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div className="container">
+            <div className="row">
+              {cards.map((card, index) => (
+                <Cardt key={index} card={card} />
+              ))}
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div className="container">
+            <div className="row">
+              {cards.map((card, index) => (
+                <Cardt key={index} card={card} />
+              ))}
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div className="container">
+            <div className="row">
+              {cards.map((card, index) => (
+                <Cardt key={index} card={card} />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev left"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <button className="leftbut">
+          <i class="bi bi-arrow-left"></i>
+        </button>
+        <span class="carousel-control" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next right"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <button className="rightbut">
+          <i class="bi bi-arrow-right"></i>
+        </button>
+
+        <span class="carousel-control " aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   );
 };
-
 export default Carbuttontwo;
