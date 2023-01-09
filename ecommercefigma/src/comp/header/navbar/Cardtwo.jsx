@@ -2,14 +2,10 @@ const Cardtwo = ({ cardtwo }) => {
   return (
     <div className="row card">
       <img src="./zurag/camer.png" alt="" />
-      <button className="cardmatwo">
-        <i class="bi bi-heart"></i>
-      </button>
+      <i class="bi bi-heart cardmatwo"></i>
       <p>Name</p>
       <p>$11.7</p>
-      <button className="from-control cardmapone">
-        <i class="bi bi-cart2"></i>
-      </button>
+      <i class="bi bi-cart2 cardmaone"></i>
     </div>
   );
 };
