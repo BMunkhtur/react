@@ -15,11 +15,13 @@ const Carbuttonone = () => {
     },
   ];
   return (
-    <div className="container d-flex">
-      <h2 className="doo">Popular products</h2>
-      {cards.map((card, index) => (
-        <Cardone key={index} card={card} />
-      ))}
+    <div className="container ">
+      <div className="navbarbuttongreed d-flex">
+        <h2 className="doo ms-4">Popular products</h2>
+        {cards.map((card, index) => (
+          <Cardone key={index} card={card} />
+        ))}
+      </div>
     </div>
   );
 };

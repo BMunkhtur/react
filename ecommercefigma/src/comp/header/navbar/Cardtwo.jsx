@@ -1,10 +1,10 @@
 const Cardtwo = ({ cardtwo }) => {
   return (
-    <div className="row card">
-      <img src="./zurag/camer.png" alt="" />
+    <div className="col-2 card cartone p-2 m-3">
+      <img src={`${cardtwo.imageURL}`} alt="" />
       <i class="bi bi-heart cardmatwo"></i>
-      <p>Name</p>
-      <p>$11.7</p>
+      <h5 className="conttitle">{cardtwo.name}</h5>
+      <p className="car">{cardtwo.price}</p>
       <i class="bi bi-cart2 cardmaone"></i>
     </div>
   );

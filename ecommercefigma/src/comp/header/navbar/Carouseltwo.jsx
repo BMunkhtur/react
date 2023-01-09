@@ -6,7 +6,7 @@ const Carbuttontwo = () => {
     {
       ner: "cardu",
       name: "Canon camera",
-      imageURL: "./zurag/camer.png",
+      imageURL: "./zurag/2.png",
       count: "(item 5)",
     },
     {
@@ -26,57 +26,29 @@ const Carbuttontwo = () => {
   return (
     <div
       id="carouselExampleIndicators"
-      class="carousel slide"
+      class="carousel slide col"
       data-bs-ride="true"
     >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
+      <div class="carousel-inner containerone">
         <div class="carousel-item active">
-          <div className="container">
-            <div className="row">
-              {cards.map((card, index) => (
-                <Cardt key={index} card={card} />
-              ))}
-            </div>
+          <div className="row">
+            {cards.map((card, index) => (
+              <Cardt key={index} card={card} />
+            ))}
           </div>
         </div>
         <div class="carousel-item">
-          <div className="container">
-            <div className="row">
-              {cards.map((card, index) => (
-                <Cardt key={index} card={card} />
-              ))}
-            </div>
+          <div className="row">
+            {cards.map((card, index) => (
+              <Cardt key={index} card={card} />
+            ))}
           </div>
         </div>
         <div class="carousel-item">
-          <div className="container">
-            <div className="row">
-              {cards.map((card, index) => (
-                <Cardt key={index} card={card} />
-              ))}
-            </div>
+          <div className="row">
+            {cards.map((card, index) => (
+              <Cardt key={index} card={card} />
+            ))}
           </div>
         </div>
       </div>

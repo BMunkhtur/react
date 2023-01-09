@@ -45,7 +45,12 @@
   margin-left: 635px;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1440px !important;
+}
+.containerone {
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
 }
 .walltwo {
   height: 100px;
@@ -187,12 +192,17 @@
   border: none;
 }
 .card img {
-  width: 100px;
+  width: 80px;
 }
-.card {
-  width: 250px;
-  height: 240px;
+
+.cartone {
+  width: 300px !important;
   margin-bottom: 100px;
+  position: relative;
+}
+.cartone img {
+  width: 230px;
+  height: 160px;
 }
 .doo {
   margin-right: 560px;
@@ -202,8 +212,9 @@
   color: #1b5a7d;
   border: 2px solid #1b5a7d;
   border-radius: 20px;
-  margin-bottom: 40px;
+  width: 130px !important;
 }
+
 .heat {
   color: black;
   background-color: black;
@@ -238,15 +249,15 @@
 .cardmatwo {
   position: absolute;
   top: 20px;
-  left: 150px;
+  left: 248px;
   border-radius: 50px;
-  border: 2px solid;
   padding: 15px !important;
   width: 10px !important;
   height: 10px !important;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #b3d4e5;
 }
 
 .cardmaone {
@@ -254,11 +265,27 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 120px;
-  left: 150px;
+  top: 180px;
+  left: 250px;
   border-radius: 60px;
-  border: 2px solid;
   padding: 15px !important;
   width: 10px !important;
   height: 10px !important;
+  background-color: #eda415;
+}
+.one {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 100px !important;
+  background-color: #eda415 !important;
+  border: none !important;
+}
+
+.cardfour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 30px !important;
+  padding: 15px !important;
 }
