@@ -1,6 +1,6 @@
 const Cardtwo = ({ cardtwo }) => {
   return (
-    <div className="col-2 card cartone p-2 m-3">
+    <div className="col-2 card cartone p-2 m-3 ">
       <img src={`${cardtwo.imageURL}`} alt="" />
       <i class="bi bi-heart cardmatwo"></i>
       <h5 className="conttitle">{cardtwo.name}</h5>

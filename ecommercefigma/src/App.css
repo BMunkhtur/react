@@ -151,14 +151,17 @@
   width: 175px;
   color: #1b5a7d;
 }
+.relative {
+  position: relative;
+}
 .oneblock {
   padding: 100px;
   height: 500px;
 }
 .booronhii {
   position: absolute;
-  right: 400px;
-  top: 500px;
+  right: 200px;
+  top: 300px;
   width: 114px;
   height: 115px;
   border-radius: 100px;
@@ -196,7 +199,7 @@
 }
 
 .cartone {
-  width: 300px !important;
+  width: 310px !important;
   margin-bottom: 100px;
   position: relative;
 }
@@ -214,35 +217,11 @@
   border-radius: 20px;
   width: 130px !important;
 }
-
 .heat {
   color: black;
   background-color: black;
 }
 
-.left {
-  color: red !important;
-  position: absolute;
-  left: 148px !important;
-  bottom: 100px !important;
-}
-.right {
-  color: red !important;
-  position: absolute;
-  right: 195px !important;
-  bottom: 100px !important;
-}
-.carousel-control-prev-icon {
-  color: red !important;
-}
-.rightbut {
-  border-radius: 50px;
-  border: none;
-}
-.leftbut {
-  border-radius: 50px;
-  border: none;
-}
 .border-radius {
   border-radius: 20px;
 }
@@ -259,7 +238,6 @@
   align-items: center;
   background-color: #b3d4e5;
 }
-
 .cardmaone {
   display: flex;
   justify-content: center;
@@ -280,12 +258,49 @@
   background-color: #eda415 !important;
   border: none !important;
 }
-
-.cardfour {
+.carouseltwo {
+  padding-left: 120px !important;
+  padding-right: 120px !important;
+  margin-bottom: 20px !important;
+  position: relative;
+}
+.carouselleft {
+  position: relative !important;
+  /* background-color: #003f62;  */
+  width: 1400px;
+  margin: 0 auto;
+}
+.leftbut {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
-  width: 30px !important;
+  position: absolute;
+  /* top: 60px; */
+  left: 90px;
+  border-radius: 60px;
   padding: 15px !important;
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #b3d4e5;
+  border: none;
+}
+.rightbut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* top: 180px; */
+  left: 40px;
+  border-radius: 60px;
+  padding: 15px !important;
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #b3d4e5;
+}
+.right {
+  position: absolute;
+}
+.bg {
+  background-color: #003f62;
+  width: 10% !important;
 }

@@ -1,6 +1,6 @@
 const Carousel = () => {
   return (
-    <div className="container">
+    <div className="container  relative">
       <div className="row oneblock">
         <div className="col">
           <div className="block">
@@ -16,7 +16,7 @@ const Carousel = () => {
         </div>
         <div className="col-4">
           <img src="./zurag/camer.png" alt="" />
-          <button className="booronhii">
+          <button className="booronhii ">
             <p>Only $89</p>
           </button>
         </div>

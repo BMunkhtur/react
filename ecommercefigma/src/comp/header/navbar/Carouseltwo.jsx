@@ -26,10 +26,10 @@ const Carbuttontwo = () => {
   return (
     <div
       id="carouselExampleIndicators"
-      class="carousel slide col"
+      class="carousel slide col carouselleft"
       data-bs-ride="true"
     >
-      <div class="carousel-inner containerone">
+      <div class="carousel-inner container carouseltwo">
         <div class="carousel-item active">
           <div className="row">
             {cards.map((card, index) => (
@@ -70,9 +70,7 @@ const Carbuttontwo = () => {
         data-bs-target="#carouselExampleIndicators"
         data-bs-slide="next"
       >
-        <button className="rightbut">
-          <i class="bi bi-arrow-right"></i>
-        </button>
+        <i class="bi bi-arrow-right rightbut"></i>
 
         <span class="carousel-control " aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>

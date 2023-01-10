@@ -81,14 +81,14 @@ const Carouselthree = () => {
               ))}
             </div>
           </div>
-          <div class="carousel-item  m-5" data-bs-interval="2000">
+          <div class="carousel-item  m-5 " data-bs-interval="2000">
             <div className="cartt row">
               {cards.map((cardtwo, index) => (
                 <Cardtwo key={index} cardtwo={cardtwo} />
               ))}
             </div>
           </div>
-          <div class="carousel-item  m-5">
+          <div class="carousel-item  ">
             <div className="cartt row">
               {cards.map((cardtwo, index) => (
                 <Cardtwo key={index} cardtwo={cardtwo} />

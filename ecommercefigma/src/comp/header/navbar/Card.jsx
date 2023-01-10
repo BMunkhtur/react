@@ -1,9 +1,9 @@
 const Cardt = ({ card }) => {
   return (
-    <div className="cardfour border col me-5">
+    <div className=" col card  me-5">
       <div className="row">
-        <div className="col">
-          <img src={`${card.imageURL}`} alt="" />
+        <div className="row w-50">
+          <img src={`${card.imageURL}`} alt="" className="w-100" />
         </div>
         <div className="col">
           <h3 className="conttitle">{card.name}</h3>
