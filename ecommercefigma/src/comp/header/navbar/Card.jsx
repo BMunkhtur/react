@@ -1,6 +1,6 @@
 const Cardt = ({ card }) => {
   return (
-    <div className=" col card  me-5">
+    <div className=" col card  me-5 otgoo">
       <div className="row">
         <div className="row w-50">
           <img src={`${card.imageURL}`} alt="" className="w-100" />

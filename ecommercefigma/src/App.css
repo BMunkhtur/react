@@ -238,19 +238,6 @@
   align-items: center;
   background-color: #b3d4e5;
 }
-.cardmaone {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 180px;
-  left: 250px;
-  border-radius: 60px;
-  padding: 15px !important;
-  width: 10px !important;
-  height: 10px !important;
-  background-color: #eda415;
-}
 .one {
   width: 20px !important;
   height: 20px !important;
@@ -270,32 +257,18 @@
   width: 1400px;
   margin: 0 auto;
 }
-.leftbut {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  /* top: 60px; */
-  left: 90px;
-  border-radius: 60px;
-  padding: 15px !important;
-  width: 10px !important;
-  height: 10px !important;
-  background-color: #b3d4e5;
-  border: none;
+.swiper-button-prev {
+  left: 0px !important;
+  width: 200px;
+  width: 40px !important;
+  height: 60px !important;
+  opacity: 0 !important;
 }
-.rightbut {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  /* top: 180px; */
-  left: 40px;
-  border-radius: 60px;
-  padding: 15px !important;
-  width: 10px !important;
-  height: 10px !important;
-  background-color: #b3d4e5;
+.swiper-button-next {
+  right: 30px !important;
+  width: 40px !important;
+  height: 60px !important;
+  opacity: 0 !important;
 }
 .right {
   position: absolute;
@@ -303,4 +276,27 @@
 .bg {
   background-color: #003f62;
   width: 10% !important;
+}
+.otgoo {
+  width: 410px !important;
+  height: 150px !important;
+}
+.arrowleft {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 810px;
+  left: 250px;
+  border: solid 2px blue;
+}
+.arrowrigth {
+  border-radius: 50%;
+  position: absolute;
+  right: 280px;
+  bottom: 150px;
+  z-index: 1;
+  border: solid 2px blue;
+}
+.swiper {
+  z-index: 0;
 }
