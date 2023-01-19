@@ -8,13 +8,11 @@ const List = () => {
             <img className="zurag1" src="./zurag/Logo.png" alt="" />
             <img className="zurag" src="./zurag/Hire Me.png" alt="" />
           </li>
-          <a href="">
+          <a href="/">
             {" "}
             <li>PORTFOLIO</li>
           </a>
-          <a href="">
-            <li>BLOG</li>
-          </a>
+          <a href="/detail">BLOG</a>
           <a href="">
             <li>CV</li>
           </a>
